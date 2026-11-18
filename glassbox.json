@@ -1,0 +1,112 @@
+{
+  "slug": "gpsclear",
+  "box": 221,
+  "date": "2026-11-18",
+  "title": "GPSClear",
+  "question": "How does GPS know where you are?",
+  "hook": "Your phone never sends a word to GPS. It just listens to about thirty clocks 20,200 km up, times how late each signal is, and solves for where you stand and what time it is. Play with the satellites, the spheres, relativity and a city street.",
+  "thumbText": "HOW GPS WORKS",
+  "field": "space",
+  "minutes": 16,
+  "tags": [
+    "gps",
+    "gnss",
+    "navigation",
+    "satellite",
+    "trilateration",
+    "atomic clock",
+    "relativity",
+    "galileo",
+    "glonass",
+    "beidou",
+    "space",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A net of clocks, not cameras",
+      "text": "About 31 working GPS satellites circle 20,200 km up, in six orbital planes tilted 55 degrees. Each takes just under 12 hours to go round, so from almost anywhere at least four are above the horizon, and usually eight or more. They only broadcast: their name, their position and the exact time. Your phone listens and never transmits."
+    },
+    {
+      "title": "Time is distance",
+      "text": "Radio travels at the speed of light, about 299,792 kilometres a second. A signal from a satellite overhead takes about 67 milliseconds to arrive, one near the horizon about 86. Each satellite sends a repeating 1,023-chip code, and the receiver slides its own copy until the two match. That delay, times the speed of light, is the range. One nanosecond of error is 30 centimetres."
+    },
+    {
+      "title": "Spheres that meet",
+      "text": "One range puts you on a sphere around a satellite. Two spheres meet in a circle, and three in two points, one of which is out in space and is thrown away. But the clock in a phone is cheap, and an error of one millisecond makes every range about 300 km too long. So the receiver treats its clock error as a fourth unknown, and four satellites solve for x, y, z and time."
+    },
+    {
+      "title": "Einstein is in the loop",
+      "text": "Satellite clocks tick differently from clocks on the ground. Their speed makes them lose about 7 microseconds a day, and being higher in Earth's gravity makes them gain about 46. The net is about 38 microseconds a day fast, which would add up to more than 11 km of error a day. GPS fixes it at the source by tuning the satellite clock slightly slow before launch."
+    },
+    {
+      "title": "Where it goes wrong",
+      "text": "In the open a phone is good to about 5 metres. The ionosphere slows radio by a few metres to tens of metres, and receivers using two frequencies can cancel it. In a street between tall buildings, satellites are blocked and signals bounce, which corrections cannot fix. Satellites bunched in one part of the sky give a poor fix, measured by dilution of precision. WAAS-type corrections give 1 to 3 metres, and RTK gives centimetres."
+    },
+    {
+      "title": "Four systems, one phone",
+      "text": "GPS is the American system. GLONASS (Russia), Galileo (Europe) and BeiDou (China) also cover the whole planet, and India and Japan run regional ones. A modern phone chip listens to all of them, which means more satellites in view. A-GPS gives the phone satellite orbit data over the internet, so a first fix takes seconds instead of half a minute or more."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "GNSS",
+      "def": "Global navigation satellite system: the general name for GPS, GLONASS, Galileo, BeiDou and similar systems."
+    },
+    {
+      "term": "Pseudorange",
+      "def": "A distance worked out from signal delay. It is 'pseudo' because it still includes the receiver's clock error."
+    },
+    {
+      "term": "C/A code",
+      "def": "The open GPS code: 1,023 chips that repeat every millisecond, different for every satellite."
+    },
+    {
+      "term": "Chip",
+      "def": "One bit of the code. At 1.023 million a second, a chip lasts about 0.98 microseconds, which is about 293 metres of travel."
+    },
+    {
+      "term": "Trilateration",
+      "def": "Finding a position from distances to known points. Triangulation uses angles; GPS uses distances."
+    },
+    {
+      "term": "Clock bias",
+      "def": "How far the receiver's clock is from GPS time. It is solved together with the position."
+    },
+    {
+      "term": "Ephemeris",
+      "def": "The precise orbit data a satellite broadcasts about itself, at 50 bits a second."
+    },
+    {
+      "term": "Multipath",
+      "def": "A signal that reaches the receiver after bouncing, so its path is longer than the direct one."
+    },
+    {
+      "term": "DOP",
+      "def": "Dilution of precision: how much the layout of the satellites multiplies the range errors. Lower is better."
+    },
+    {
+      "term": "A-GPS",
+      "def": "Assisted GPS: the phone fetches orbit data and an approximate time and place from the network, so it starts faster."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "gpsclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

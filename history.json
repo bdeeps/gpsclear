@@ -1,0 +1,1144 @@
+{
+  "title": "The history of GPS",
+  "tagline": "From a radio beep from Sputnik to a sky of more than a hundred navigation satellites that tells your phone where it is.",
+  "intro": "In 1957 two American physicists listened to the first satellite and found they could track it from the pitch of its radio signal. A colleague then asked the question that started satellite navigation: could the trick run backwards? It took clocks in orbit, a hard decision in the Pentagon, and a lot of careful maths about the shape of the Earth to turn that idea into GPS. Then the sky filled up with rival systems from Russia, Europe, China, India and Japan. Where sources disagree on a date or a number, this history says so.",
+  "eras": [
+    {
+      "id": "doppler",
+      "name": "Listening to the first satellites",
+      "from": 1955,
+      "to": 1972,
+      "color": "#c49bff",
+      "summary": "Sputnik's beep shows that a satellite can be tracked from the ground. The Navy's Transit system turns the idea around and uses satellites to fix a ship's position. Other teams start putting clocks in space."
+    },
+    {
+      "id": "build",
+      "name": "Building GPS",
+      "from": 1973,
+      "to": 1995,
+      "color": "#ffb547",
+      "summary": "Navy and Air Force ideas merge into one programme called Navstar. Atomic clocks go up, the first satellite launches in 1978, and the full constellation of 24 is declared ready in 1995."
+    },
+    {
+      "id": "open",
+      "name": "Opening the sky to everyone",
+      "from": 1983,
+      "to": 2005,
+      "color": "#ff7a59",
+      "summary": "After a civil airliner is shot down in 1983, the US promises GPS for civil use. The deliberate blur called Selective Availability is switched off in 2000, and phones and aircraft start to rely on the signal."
+    },
+    {
+      "id": "world",
+      "name": "A sky of many systems",
+      "from": 1982,
+      "to": 2020,
+      "color": "#5ce1a9",
+      "summary": "The Soviet Union, then Russia, builds GLONASS. Europe builds Galileo, China builds BeiDou, India builds NavIC and Japan builds QZSS. A modern phone listens to several at once."
+    },
+    {
+      "id": "now",
+      "name": "New signals and finer accuracy",
+      "from": 2005,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "A third civil signal, a new generation of satellites, and public services that promise accuracy of tens of centimetres."
+    }
+  ],
+  "events": [
+    {
+      "year": 1955,
+      "date": "1954 to 1956 (sources give different years)",
+      "era": "doppler",
+      "art": "pendulum",
+      "title": "Atomic clocks in orbit, on paper",
+      "who": "Friedwardt Winterberg",
+      "where": "Germany and the United States",
+      "country": "Germany",
+      "text": "The German-American physicist Friedwardt Winterberg suggested testing general relativity with accurate atomic clocks in orbit. Wikipedia dates his paper to 1955, its reference list gives 1956, and a university page quoted there says 1954.",
+      "why": "It was an early sign that clocks in orbit would run at a different rate from clocks on the ground, which GPS later had to correct.",
+      "box": "clocks",
+      "sources": [
+        46
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "4 October 1957",
+      "era": "doppler",
+      "art": "orbit",
+      "title": "Sputnik beeps over the world",
+      "who": "Soviet Union",
+      "where": "Baikonur, Kazakhstan (then USSR)",
+      "country": "Russia",
+      "text": "Sputnik 1 was a metal sphere about 58 cm wide, with a mass of about 83.6 kg (184 lb). It circled the Earth about every 96 minutes, between roughly 215 km and 939 km up. Its radio signal on about 20 and 40 MHz lasted around 22 days.",
+      "why": "A satellite broadcasting a steady radio tone gave scientists something simple to listen to and measure.",
+      "box": "sky",
+      "sources": [
+        44,
+        45,
+        8
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "October 1957",
+      "era": "doppler",
+      "art": "soundwave",
+      "key": true,
+      "title": "Finding a satellite from its pitch",
+      "who": "William Guier and George Weiffenbach",
+      "where": "Applied Physics Laboratory, Maryland, USA",
+      "country": "United States",
+      "text": "Two physicists at the Johns Hopkins Applied Physics Laboratory, William Guier and George Weiffenbach, recorded Sputnik's 20 MHz radio signal. The tone they heard rose and fell as the satellite passed, because of the Doppler shift. From that curve they worked out its orbit.",
+      "why": "A change in a signal's pitch can reveal distance and speed, which is the first step toward measuring position from space.",
+      "box": "range",
+      "sources": [
+        8,
+        7
+      ]
+    },
+    {
+      "year": 1958,
+      "date": "17 March 1958",
+      "era": "doppler",
+      "art": "compass",
+      "key": true,
+      "title": "Turn the idea around",
+      "who": "Frank McClure, William Guier and George Weiffenbach",
+      "where": "Applied Physics Laboratory, Maryland, USA",
+      "country": "United States",
+      "text": "On 17 March 1958 Frank McClure, head of APL's Research Center, asked Guier and Weiffenbach whether their method could be turned around: with the orbit known, could it fix a position on Earth? Their first study said yes. The Navy wanted this for Polaris submarines, and McClure and Richard Kershner outlined Transit that weekend.",
+      "why": "It changed the question from where is the satellite to where am I.",
+      "box": "fix",
+      "sources": [
+        8,
+        7
+      ]
+    },
+    {
+      "year": 1960,
+      "date": "13 April 1960",
+      "era": "doppler",
+      "art": "rocket",
+      "title": "Transit 1B reaches orbit",
+      "who": "APL and the US Navy",
+      "where": "Cape Canaveral, USA",
+      "country": "United States",
+      "text": "Transit 1A, launched on 17 September 1959, did not reach orbit. Transit 1B, launched on 13 April 1960, did, though lower than planned: about 626 km to 1,078 km.",
+      "why": "It was the first working satellite of the first satellite navigation system.",
+      "sources": [
+        7,
+        9
+      ]
+    },
+    {
+      "year": 1963,
+      "date": "1963",
+      "era": "doppler",
+      "art": "scroll",
+      "title": "Air Force studies Project 621B",
+      "who": "US Air Force and The Aerospace Corporation",
+      "where": "United States",
+      "country": "United States",
+      "text": "The Air Force backed a 1963 Aerospace Corporation study of satellite navigation, called 621B. Its ideas fed into GPS. In 1973 it was merged into the joint Navy and Air Force effort.",
+      "why": "It was the Air Force half of what later became GPS.",
+      "sources": [
+        10,
+        20
+      ]
+    },
+    {
+      "year": 1964,
+      "date": "1964",
+      "era": "doppler",
+      "art": "boat",
+      "title": "Transit goes into service",
+      "who": "US Navy and APL",
+      "where": "United States",
+      "country": "United States",
+      "text": "Transit became fully operational in 1964. A ship fixed its position from a satellite pass, but fixes came only every 35 to 100 minutes. Early accuracy was a few hundred metres.",
+      "why": "Transit proved the idea, and its slow, patchy coverage is what GPS was built to fix.",
+      "box": "fix",
+      "sources": [
+        7,
+        9
+      ]
+    },
+    {
+      "year": 1967,
+      "date": "31 May 1967",
+      "era": "doppler",
+      "art": "pendulum",
+      "key": true,
+      "title": "Timation puts a clock in orbit",
+      "who": "Roger Easton and the Naval Research Laboratory",
+      "where": "United States",
+      "country": "United States",
+      "text": "Timation 1 flew at 925 km with two quartz clocks, not atomic ones. Roger Easton's idea was passive ranging: a receiver measures the delay of a timed satellite signal to find its distance. He entered the National Inventors Hall of Fame in 2010.",
+      "why": "Timing, not Doppler shift, became the heart of GPS.",
+      "box": "clocks",
+      "sources": [
+        10,
+        22
+      ]
+    },
+    {
+      "year": 1967,
+      "date": "1967",
+      "era": "doppler",
+      "art": "compass",
+      "title": "Transit opens to the public",
+      "who": "US Navy",
+      "where": "United States",
+      "country": "United States",
+      "text": "In 1967 Transit was opened to private and commercial users. More than 80,000 privately owned receivers were used. Service ended on 31 December 1996.",
+      "why": "Sailors and surveyors learned to trust satellite fixes decades before GPS.",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "Labor Day weekend 1973",
+      "era": "build",
+      "art": "building",
+      "title": "A Labor Day weekend design session",
+      "who": "Bradford Parkinson and his team",
+      "where": "United States",
+      "country": "United States",
+      "text": "Air Force Colonel Bradford Parkinson, named director of the new GPS joint programme office in April 1973, had about a dozen staff work out a new navigation design over Labor Day weekend 1973.",
+      "why": "It was a turning point in shaping the design that became GPS.",
+      "box": "fix",
+      "sources": [
+        16,
+        20
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "April 1973 or 1974 (sources differ)",
+      "era": "build",
+      "art": "calculator",
+      "title": "Navy and Air Force merge their programmes",
+      "who": "US Navy and US Air Force",
+      "where": "United States",
+      "country": "United States",
+      "text": "The eoPortal Timation page says the Navy's Timation work merged with the Air Force's 621B in April 1973 to form Navstar-GPS. HISTORY says the Air Force consolidated several programmes in 1974. Parkinson and Ivan Getting later shared the 2003 Draper Prize for GPS.",
+      "why": "Two rival ideas, Navy timing and Air Force signals, became one system.",
+      "sources": [
+        10,
+        12,
+        19
+      ]
+    },
+    {
+      "year": 1974,
+      "date": "14 July 1974",
+      "era": "build",
+      "art": "atomspin",
+      "title": "Rubidium atomic clocks reach orbit",
+      "who": "Naval Research Laboratory",
+      "where": "United States",
+      "country": "United States",
+      "text": "NTS-1 launched on 14 July 1974 into a medium orbit about 13,700 km high (one table gives 13,800 km). It was the first satellite to carry rubidium atomic clocks.",
+      "why": "Atomic clocks in orbit were the next step toward GPS-quality timing.",
+      "box": "clocks",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "23 June 1977",
+      "era": "build",
+      "art": "atomspin",
+      "key": true,
+      "title": "Cesium clocks, and Einstein checked",
+      "who": "Naval Research Laboratory",
+      "where": "United States",
+      "country": "United States",
+      "text": "NTS-2 launched on 23 June 1977 into a 20,200 km orbit with the first cesium clocks. Its clock ran faster than ground clocks by 442.5 parts in 10 to the 12, against 446.5 predicted by general relativity. Ashby reports agreement to better than 1 percent.",
+      "why": "It showed that the relativity correction was real and that it had to be built into every GPS satellite.",
+      "box": "clocks",
+      "sources": [
+        10,
+        11
+      ]
+    },
+    {
+      "year": 1978,
+      "date": "22 February 1978",
+      "era": "build",
+      "art": "rocket",
+      "key": true,
+      "title": "The first Navstar satellite launches",
+      "who": "US Air Force",
+      "where": "Vandenberg Air Force Base, California, USA",
+      "country": "United States",
+      "text": "Navstar 1 launched on 22 February 1978 from Vandenberg Air Force Base. It is described as the first operational GPS satellite. Eleven Block I satellites flew between 1978 and 1985.",
+      "why": "The system that began as ideas on paper now had hardware in the sky.",
+      "box": "sky",
+      "sources": [
+        12,
+        4,
+        5
+      ]
+    },
+    {
+      "year": 1982,
+      "date": "12 October 1982",
+      "era": "world",
+      "art": "rocket",
+      "title": "The Soviet Union launches the first GLONASS satellite",
+      "who": "Soviet Union",
+      "where": "USSR",
+      "country": "Russia",
+      "text": "Flight tests began on 12 October 1982 with three Kosmos satellites. GLONASS flies at about 19,100 km, in three planes of eight satellites. The full 24 was reached in 1995.",
+      "why": "It gave the world a second global system and a fall-back for GPS.",
+      "box": "world",
+      "sources": [
+        23
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "1 September 1983",
+      "era": "open",
+      "art": "plane",
+      "title": "Korean Air Lines Flight 007 is shot down",
+      "who": "Soviet air defence",
+      "where": "Near Moneron Island, west of Sakhalin",
+      "country": "Russia",
+      "text": "On 1 September 1983 a Soviet interceptor shot down Korean Air Lines Flight 007 after it strayed into Soviet airspace. All 269 people on board died.",
+      "why": "The disaster is often given as the reason GPS was opened to civil use.",
+      "sources": [
+        14,
+        15
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "September 1983 (exact day not confirmed here)",
+      "era": "open",
+      "art": "scroll",
+      "key": true,
+      "title": "Reagan promises GPS for civil use",
+      "who": "President Ronald Reagan",
+      "where": "United States",
+      "country": "United States",
+      "text": "After the shootdown, President Reagan said the US satellite navigation system would be free for civilian use once it was working. Nextgov says he sped up the timetable. The best signals stayed reserved for the military.",
+      "why": "Civil GPS began as a policy decision, not just a technical one.",
+      "sources": [
+        14,
+        16
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "1983; approved 1994",
+      "era": "world",
+      "art": "earth",
+      "title": "China sketches a two-satellite system",
+      "who": "Chen Fangyun and colleagues",
+      "where": "China",
+      "country": "China",
+      "text": "In 1983 Chen Fangyun and colleagues proposed an experimental system built on two satellites. In February 1994 the government approved the programme, later named BeiDou.",
+      "why": "It was the first step of the plan that led to a global BeiDou.",
+      "box": "world",
+      "sources": [
+        36
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "mid-1970s to 1986",
+      "era": "build",
+      "art": "earth",
+      "key": true,
+      "title": "Gladys West shapes the Earth for GPS",
+      "who": "Gladys West",
+      "where": "Naval Proving Ground, Dahlgren, Virginia, USA",
+      "country": "United States",
+      "text": "West joined the Naval Proving Ground at Dahlgren in 1956. She calculated models of the Earth's shape, including the geoid, and worked on satellite data analysis. Wikipedia adds that she programmed an IBM 7030 Stretch for this from the mid-1970s and wrote a 1986 report on GEOSAT altimeter data. Her Earth models are credited with helping GPS orbit calculations.",
+      "why": "A satellite can only tell you where you are if its own position and the Earth's shape are known precisely.",
+      "box": "fix",
+      "sources": [
+        17,
+        18
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "14 February 1989",
+      "era": "build",
+      "art": "rocket",
+      "title": "The first Block II satellite",
+      "who": "US Air Force",
+      "where": "United States",
+      "country": "United States",
+      "text": "A Delta II rocket made its first launch on 14 February 1989, carrying the first operational Block II GPS satellite. Block II and IIA satellites were launched from 1989 to 1997, and the last was retired in 2019.",
+      "why": "These were the workhorses that built the working constellation.",
+      "box": "sky",
+      "sources": [
+        13,
+        5
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "1989",
+      "era": "open",
+      "art": "compass",
+      "title": "The first portable GPS for civilians",
+      "who": "Magellan",
+      "where": "United States",
+      "country": "United States",
+      "text": "HISTORY says the Magellan Nav 1000 went on sale in 1989 as the first portable civilian GPS device, at about $3,000.",
+      "why": "It put a satellite receiver in a hand, years before phones.",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "1990 to 1991",
+      "era": "build",
+      "art": "mountain",
+      "title": "GPS goes to war before it is finished",
+      "who": "US military",
+      "where": "Persian Gulf",
+      "country": "United States",
+      "text": "In the 1991 Gulf War GPS was used heavily in combat, before the constellation was complete. With few military receivers available, the US bought more than 10,000 civilian ones and set Selective Availability to zero for the war.",
+      "why": "Even a partial constellation was a big help in featureless desert.",
+      "box": "errors",
+      "sources": [
+        21,
+        16
+      ]
+    },
+    {
+      "year": 1995,
+      "date": "27 April 1995 (NASA's page says 1993)",
+      "era": "build",
+      "art": "trophy",
+      "key": true,
+      "title": "Full operational capability",
+      "who": "US Air Force",
+      "where": "United States",
+      "country": "United States",
+      "text": "Air & Space Forces Magazine says GPS became fully operational on 27 April 1995, with 24 satellites. NASA's page dates full operation to 1993, so sources differ.",
+      "why": "At least four satellites were now in view from almost anywhere, at any time.",
+      "box": "sky",
+      "sources": [
+        16,
+        12,
+        2,
+        4
+      ]
+    },
+    {
+      "year": 2000,
+      "date": "1 to 2 May 2000",
+      "era": "open",
+      "art": "wave",
+      "key": true,
+      "title": "The deliberate blur is switched off",
+      "who": "US government (President Bill Clinton)",
+      "where": "Washington, USA",
+      "country": "United States",
+      "text": "At a White House briefing on 1 May 2000, officials said the US would stop deliberately degrading the public GPS signal. They said accuracy would improve from about 100 m to 10 to 20 m. GPS.gov says it took effect shortly after midnight and that the US has no intent to use it again. Sources differ on the exact hour.",
+      "why": "Everyone's receiver became about ten times better overnight, with no new satellite.",
+      "box": "errors",
+      "sources": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "late 1990s and 2000s (no single date)",
+      "era": "open",
+      "art": "phone",
+      "title": "Emergency calls pull GPS into phones",
+      "who": "Phone makers and US regulators",
+      "where": "United States",
+      "country": "United States",
+      "text": "Assisted GPS sends orbit data to the phone over the mobile network. A normal receiver can need up to 12.5 minutes to collect the full message from the satellites at 50 bits per second. Wikipedia says US 911 location rules sped up its development.",
+      "why": "It is why the blue dot on your phone appears in seconds, not minutes.",
+      "box": "world",
+      "sources": [
+        42,
+        43
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "10 July 2003",
+      "era": "open",
+      "art": "plane",
+      "title": "WAAS corrects GPS for pilots",
+      "who": "US Federal Aviation Administration",
+      "where": "United States",
+      "country": "United States",
+      "text": "An FAA spokesman told AOPA the first WAAS approach was commissioned on 10 July 2003. Wikipedia counts 38 ground stations in 2007 that measure GPS errors, with geostationary satellites sending the corrections. It reports typical accuracy better than about 1 m sideways and 1.5 m vertically.",
+      "why": "It shows how outside help can fix errors that a lone receiver cannot see.",
+      "box": "errors",
+      "sources": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "year": 2005,
+      "date": "28 December 2005",
+      "era": "world",
+      "art": "rocket",
+      "title": "Europe tests Galileo in orbit",
+      "who": "European Space Agency",
+      "where": "Baikonur, Kazakhstan",
+      "country": "European Union",
+      "text": "GIOVE-A, the first experimental Galileo test satellite, launched from Baikonur on 28 December 2005. Surrey Satellite Technology built it under a contract signed in July 2003. Galileo remains under civilian control.",
+      "why": "Europe wanted a system run by civilians, not the military.",
+      "box": "world",
+      "sources": [
+        35,
+        32
+      ]
+    },
+    {
+      "year": 2010,
+      "date": "28 May 2010",
+      "era": "now",
+      "art": "orbit",
+      "title": "Block IIF brings a third civil signal",
+      "who": "US Air Force",
+      "where": "United States",
+      "country": "United States",
+      "text": "The first Block IIF satellite launched on 28 May 2010. It added the L5 civil signal and high-stability rubidium and cesium clocks. Block IIF launches ran from 2010 to 2016.",
+      "why": "Extra signals let receivers cancel most of the delay caused by the upper atmosphere.",
+      "box": "errors",
+      "sources": [
+        5,
+        2,
+        6
+      ]
+    },
+    {
+      "year": 2011,
+      "date": "October 2011",
+      "era": "world",
+      "art": "earth",
+      "title": "GLONASS is back to 24",
+      "who": "Russia",
+      "where": "Russia",
+      "country": "Russia",
+      "text": "GLONASS slipped in the 1990s after the Soviet collapse, and restoring it became a high priority in the early 2000s. Roscosmos said a launch in October 2011 brought the fleet back to full capability for the first time since 1996.",
+      "why": "A system can decay without money, which is why GPS needs constant replacement launches.",
+      "box": "world",
+      "sources": [
+        23,
+        24
+      ]
+    },
+    {
+      "year": 2011,
+      "date": "21 October 2011",
+      "era": "world",
+      "art": "rocket",
+      "title": "The first Galileo satellite for service",
+      "who": "European Space Agency",
+      "where": "Europe",
+      "country": "European Union",
+      "text": "On 21 October 2011 the first two operational Galileo satellites launched on a Soyuz rocket from Kourou, French Guiana. Galileo flies at about 23,222 km in three orbital planes.",
+      "why": "Galileo sits higher than GPS, so a satellite stays in view a little longer.",
+      "box": "world",
+      "sources": [
+        31,
+        33
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "December 2012",
+      "era": "world",
+      "art": "earth",
+      "title": "BeiDou serves Asia and the Pacific",
+      "who": "China",
+      "where": "China",
+      "country": "China",
+      "text": "BeiDou began civilian positioning and messaging service in China and parts of the Asia-Pacific in December 2012. Sun Jiadong is listed by Wikipedia as chief designer of BeiDou-2.",
+      "why": "It was the second stage of China's plan to go global.",
+      "box": "world",
+      "sources": [
+        36,
+        47
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "1 July 2013 to 28 April 2016",
+      "era": "world",
+      "art": "rocket",
+      "title": "India launches NavIC's seven satellites",
+      "who": "ISRO",
+      "where": "India",
+      "country": "India",
+      "text": "IRNSS-1A launched on 1 July 2013 and IRNSS-1G, the seventh and last, on 28 April 2016. Three satellites are geostationary and four are inclined geosynchronous. NavIC covers India and a region up to 1,500 km beyond its borders.",
+      "why": "A regional system can be much smaller and still serve a whole country.",
+      "box": "world",
+      "sources": [
+        26,
+        25
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "15 December 2016",
+      "era": "world",
+      "art": "earth",
+      "key": true,
+      "title": "Galileo starts serving the world",
+      "who": "European Commission and ESA",
+      "where": "Europe",
+      "country": "European Union",
+      "text": "On 15 December 2016 the European Commission declared Galileo's Initial Services open, with 18 satellites in orbit. The Open Service is free. A search and rescue service cuts the wait to locate a distress beacon from up to three hours to about 10 minutes.",
+      "why": "Phones could now use a second global system built on a civil design.",
+      "box": "world",
+      "sources": [
+        29,
+        30
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "11 September 2010; in service from November 2018",
+      "era": "world",
+      "art": "building",
+      "title": "Japan's satellites hang over its cities",
+      "who": "Japan",
+      "where": "Japan",
+      "country": "Japan",
+      "text": "The first QZSS satellite, Michibiki, launched on 11 September 2010. The four-satellite system has been in service since November 2018. Its satellites follow inclined paths that trace a figure of eight, so at least one stays high over Japan.",
+      "why": "Tall buildings block low satellites, so a high one overhead helps in a city street.",
+      "box": "errors",
+      "sources": [
+        27,
+        28
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "December 2018",
+      "era": "now",
+      "art": "rocket",
+      "title": "The first GPS III satellite",
+      "who": "US Space Force and US Air Force",
+      "where": "Cape Canaveral, USA",
+      "country": "United States",
+      "text": "The first GPS III satellite launched in December 2018. GPS.gov says that in September 2007 the US decided to buy GPS III without the Selective Availability feature.",
+      "why": "The old deliberate blur is gone from the design of the newest satellites.",
+      "box": "sky",
+      "sources": [
+        5,
+        0
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "31 July 2020",
+      "era": "world",
+      "art": "earth",
+      "key": true,
+      "title": "BeiDou-3 goes global",
+      "who": "China",
+      "where": "Beijing, China",
+      "country": "China",
+      "text": "On 31 July 2020 President Xi Jinping declared BeiDou-3 complete and in global service. It has 30 third-generation satellites: 24 in medium Earth orbit, 3 inclined geosynchronous and 3 geostationary. The last was launched in late June 2020.",
+      "why": "The world now had four global systems, not one.",
+      "box": "world",
+      "sources": [
+        36,
+        37
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "24 January 2023",
+      "era": "now",
+      "art": "pixels",
+      "title": "Galileo offers 20 cm accuracy",
+      "who": "European Union",
+      "where": "Europe",
+      "country": "European Union",
+      "text": "ESA says Galileo's High Accuracy Service, giving about 20 cm horizontal accuracy, was declared available on 24 January 2023. Surveyors have long used RTK, which uses carrier-wave measurements and a nearby base station for centimetre accuracy.",
+      "why": "Centimetre-level accuracy is moving from surveying into everyday products.",
+      "box": "errors",
+      "sources": [
+        34,
+        41
+      ]
+    },
+    {
+      "year": 2026,
+      "date": "17 January 2026",
+      "era": "now",
+      "art": "person",
+      "title": "Gladys West dies at 95",
+      "who": "Gladys West",
+      "where": "Fredericksburg, Virginia, USA",
+      "country": "United States",
+      "text": "West died on 17 January 2026, aged 95. She was inducted into the US Air Force Space and Missile Pioneers Hall of Fame in 2018, retired from Dahlgren in 1998 after 42 years, and completed a doctorate in 2000.",
+      "why": "A woman whose maths sat under every GPS fix was honoured late in life.",
+      "sources": [
+        17,
+        18
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First satellite navigation system used operationally",
+      "value": "Transit, fully operational in 1964",
+      "who": "APL and the US Navy"
+    },
+    {
+      "label": "First Timation satellite, with quartz clocks",
+      "value": "31 May 1967",
+      "who": "Naval Research Laboratory, USA"
+    },
+    {
+      "label": "First rubidium clocks in orbit",
+      "value": "14 July 1974",
+      "who": "Navigation Technology Satellite 1, USA"
+    },
+    {
+      "label": "First cesium clocks in orbit",
+      "value": "23 June 1977",
+      "who": "Navigation Technology Satellite 2, USA"
+    },
+    {
+      "label": "First operational GPS satellite",
+      "value": "22 February 1978",
+      "who": "Navstar 1, US Air Force"
+    },
+    {
+      "label": "First GLONASS launch",
+      "value": "12 October 1982",
+      "who": "Soviet Union"
+    },
+    {
+      "label": "Selective Availability switched off",
+      "value": "1 to 2 May 2000",
+      "who": "United States"
+    },
+    {
+      "label": "First experimental Galileo satellite",
+      "value": "28 December 2005",
+      "who": "GIOVE-A, ESA"
+    }
+  ],
+  "people": [
+    {
+      "name": "William Guier and George Weiffenbach",
+      "life": "",
+      "role": "Physicists, Applied Physics Laboratory",
+      "from": "USA",
+      "note": "Worked out Sputnik's orbit from the Doppler shift of its radio signal."
+    },
+    {
+      "name": "Frank McClure",
+      "life": "",
+      "role": "Head of the Research Center, Applied Physics Laboratory",
+      "from": "USA",
+      "note": "Asked on 17 March 1958 whether the Sputnik method could be inverted to fix a position on Earth."
+    },
+    {
+      "name": "Roger Easton",
+      "life": "1921 – 2014",
+      "role": "Physicist, Naval Research Laboratory",
+      "from": "USA",
+      "note": "Led Timation, the idea of ranging from clocks in orbit, and held its patent."
+    },
+    {
+      "name": "Bradford Parkinson",
+      "life": "born 1935",
+      "role": "Air Force engineer and Stanford professor",
+      "from": "USA",
+      "note": "Led the GPS joint programme office from 1973 and shared the 2003 Draper Prize."
+    },
+    {
+      "name": "Ivan Getting",
+      "life": "1912 – 2003",
+      "role": "Physicist; founded The Aerospace Corporation in 1960",
+      "from": "USA",
+      "note": "Early advocate of satellite navigation who shared the 2003 Draper Prize with Parkinson."
+    },
+    {
+      "name": "Gladys West",
+      "life": "1930 – 2026",
+      "role": "Mathematician and programmer, Naval Proving Ground",
+      "from": "USA",
+      "note": "Computed the geoid, the Earth model that GPS orbits rely on."
+    },
+    {
+      "name": "Friedwardt Winterberg",
+      "life": "born 1929",
+      "role": "Physicist",
+      "from": "Germany and USA",
+      "note": "Proposed testing relativity with atomic clocks in satellites, in a paper dated 1954 to 1956."
+    },
+    {
+      "name": "Neil Ashby",
+      "life": "",
+      "role": "Relativity physicist",
+      "from": "USA",
+      "note": "Wrote a 2002 Physics Today article on how relativity affects GPS clocks."
+    },
+    {
+      "name": "Chen Fangyun",
+      "life": "",
+      "role": "Engineer and scientist",
+      "from": "China",
+      "note": "Proposed China's first two-satellite navigation experiment."
+    },
+    {
+      "name": "Sun Jiadong",
+      "life": "born 1929",
+      "role": "Space engineer, chief designer",
+      "from": "China",
+      "note": "Wikipedia calls him the father of Chinese satellites and lists him as chief designer of BeiDou-2."
+    }
+  ],
+  "series": [
+    {
+      "id": "height",
+      "title": "How high the navigation satellites fly",
+      "unit": "km",
+      "log": false,
+      "after": "build",
+      "caption": "Early satellites flew low and crossed the sky quickly. Later ones climbed to about 20,000 km so each stays in view for hours.",
+      "points": [
+        {
+          "year": 1957,
+          "value": 939,
+          "label": "Sputnik 1, highest point of its orbit (lowest about 215 km)"
+        },
+        {
+          "year": 1960,
+          "value": 1078,
+          "label": "Transit 1B, highest point of its orbit (lowest 626 km)"
+        },
+        {
+          "year": 1967,
+          "value": 925,
+          "label": "Timation 1, 925 km"
+        },
+        {
+          "year": 1974,
+          "value": 13700,
+          "label": "NTS-1, about 13,700 km (mean)"
+        },
+        {
+          "year": 1977,
+          "value": 20200,
+          "label": "NTS-2, 20,200 km, the GPS height"
+        },
+        {
+          "year": 1982,
+          "value": 19100,
+          "label": "GLONASS design height, about 19,100 km (first launch 1982)"
+        },
+        {
+          "year": 2011,
+          "value": 23222,
+          "label": "Galileo, 23,222 km (first operational launch 2011)"
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "title": "Typical error of a civil position fix, by era and method",
+      "unit": "metres",
+      "log": true,
+      "after": "open",
+      "caption": "Different receivers and methods are shown. The values are rounded and are for typical conditions, not guarantees.",
+      "points": [
+        {
+          "year": 1964,
+          "value": 300,
+          "label": "Transit, one satellite pass: a few hundred metres (300 m shown)"
+        },
+        {
+          "year": 1999,
+          "value": 100,
+          "label": "GPS with Selective Availability: about 100 m, per the White House briefing"
+        },
+        {
+          "year": 2000,
+          "value": 20,
+          "label": "Right after it was switched off: 10 to 20 m (upper end shown)"
+        },
+        {
+          "year": 2003,
+          "value": 1,
+          "label": "WAAS, with aircraft corrections: better than about 1 m sideways"
+        },
+        {
+          "year": 2025,
+          "value": 4.9,
+          "label": "Smartphone in open sky: within about 4.9 m, per GPS.gov"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Light travels about 300 m in a millionth of a second, so a receiver clock that is off by one microsecond would put you about 300 m out.",
+    "Satellite clocks tick about 38 microseconds a day faster than clocks on the ground. Left uncorrected, the error would grow by more than 11 km in a day.",
+    "Engineers set each satellite clock to run slightly slow before launch so it ticks at the right rate once it is in orbit.",
+    "A GPS satellite sends its data at only 50 bits per second, and the full message takes 750 seconds."
+  ],
+  "sources": [
+    {
+      "title": "Selective Availability",
+      "publisher": "GPS.gov (US government)",
+      "url": "https://gps.gov/selective-availability"
+    },
+    {
+      "title": "Press Briefing on the Global Positioning System",
+      "publisher": "Clinton White House archives (US National Archives)",
+      "url": "https://clintonwhitehouse6.archives.gov/2000/05/2000-05-01-press-briefing-on-the-global-positioning-system.html"
+    },
+    {
+      "title": "Space Segment",
+      "publisher": "GPS.gov (archived page, count as of 3 July 2023)",
+      "url": "https://archive.gps.gov/systems/gps/space/"
+    },
+    {
+      "title": "GPS Accuracy",
+      "publisher": "GPS.gov (archived page)",
+      "url": "https://archive.gps.gov/systems/gps/performance/accuracy/"
+    },
+    {
+      "title": "GPS",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/"
+    },
+    {
+      "title": "GPS Space Segment",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/GPS_Space_Segment"
+    },
+    {
+      "title": "Ionospheric Delay",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/Ionospheric_Delay"
+    },
+    {
+      "title": "Innovations and Breakthroughs",
+      "publisher": "Johns Hopkins Applied Physics Laboratory",
+      "url": "https://www.jhuapl.edu/about/history/innovations-and-breakthroughs"
+    },
+    {
+      "title": "Genesis of Satellite Navigation (W. H. Guier and G. C. Weiffenbach)",
+      "publisher": "Johns Hopkins APL Technical Digest, vol. 18, no. 2, 1997",
+      "url": "https://secwww.jhuapl.edu/techdigest/Content/techdigest/pdf/V18-N02/18-02-Guier.pdf"
+    },
+    {
+      "title": "Transit (NNSS)",
+      "publisher": "eoPortal (ESA)",
+      "url": "https://eoportal.org/satellite-missions/transit"
+    },
+    {
+      "title": "TIMATION: GPS Predecessor Program",
+      "publisher": "eoPortal (ESA)",
+      "url": "https://www.eoportal.org/other-space-activities/timation"
+    },
+    {
+      "title": "Relativity and the Global Positioning System (Neil Ashby, May 2002)",
+      "publisher": "Physics Today, American Institute of Physics",
+      "url": "https://physicstoday.aip.org/features/relativity-and-the-global-positioning-system"
+    },
+    {
+      "title": "Navstar 1, first operational GPS satellite, launches",
+      "publisher": "HISTORY",
+      "url": "https://www.history.com/this-day-in-history/february-22/navstar-1-first-operational-gps-satellite-launches"
+    },
+    {
+      "title": "February 14, 1989",
+      "publisher": "Air Force Historical Foundation",
+      "url": "https://afhistory.org/february-14-1989/"
+    },
+    {
+      "title": "How a 1983 Plane Crash Helped Speed Up Civilian Use of GPS",
+      "publisher": "Nextgov",
+      "url": "https://nextgov.com/digital-government/2014/11/how-1983-plane-crash-helped-speed-civilian-use-gps/98000"
+    },
+    {
+      "title": "The Downing of KAL Flight 007",
+      "publisher": "Association for Diplomatic Studies and Training",
+      "url": "https://adst.org/2014/03/the-downing-of-kal-flight-007/"
+    },
+    {
+      "title": "The Rise of GPS",
+      "publisher": "Air & Space Forces Magazine",
+      "url": "https://www.airandspaceforces.com/article/the-rise-of-gps"
+    },
+    {
+      "title": "Oct. 27, 1930: Birth of Gladys West, the Mathematician Who Laid the Groundwork for GPS",
+      "publisher": "APS News, American Physical Society",
+      "url": "https://aps.org/apsnews/2024/09/west-mathematician-groundwork-gps"
+    },
+    {
+      "title": "Gladys West",
+      "publisher": "Wikipedia (CC BY-SA)",
+      "url": "https://en.wikipedia.org/wiki/Gladys_West"
+    },
+    {
+      "title": "Ivan Getting and Brad Parkinson",
+      "publisher": "Lemelson-MIT Program",
+      "url": "https://lemelson.mit.edu/resources/ivan-getting-and-brad-parkinson"
+    },
+    {
+      "title": "40th Anniversary of Key DoD Decision on GPS",
+      "publisher": "Inside GNSS",
+      "url": "https://insidegnss.com/40th-anniversary-of-key-dod-decision-on-gps/"
+    },
+    {
+      "title": "The Global Positioning System: A Shared National Asset (1995), chapter on current and future applications",
+      "publisher": "National Academies Press",
+      "url": "https://www.nationalacademies.org/read/4920/chapter/15"
+    },
+    {
+      "title": "On the Passing of Navigation Pioneer Roger Lee Easton, Sr.",
+      "publisher": "SatNews",
+      "url": "https://satnews.com/2014/06/11/on-the-passing-of-navigation-pioneer-roger-lee-easton-sr/"
+    },
+    {
+      "title": "GLONASS General Introduction",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/GLONASS_General_Introduction"
+    },
+    {
+      "title": "Soyuz launch restores Russian navigation system",
+      "publisher": "Spaceflight Now",
+      "url": "https://spaceflightnow.com/news/n1110/02soyuz"
+    },
+    {
+      "title": "Satellite Navigation Services (NavIC)",
+      "publisher": "Indian Space Research Organisation",
+      "url": "https://www.isro.gov.in/SatelliteNavigationServices.html"
+    },
+    {
+      "title": "IRNSS (Indian Regional Navigational Satellite System)",
+      "publisher": "eoPortal (ESA)",
+      "url": "https://www.eoportal.org/satellite-missions/irnss"
+    },
+    {
+      "title": "QZSS (Quasi Zenith Satellite System)",
+      "publisher": "eoPortal (ESA)",
+      "url": "https://www.eoportal.org/satellite-missions/qzss"
+    },
+    {
+      "title": "What is the Quasi-Zenith Satellite System (QZSS)?",
+      "publisher": "Cabinet Office, Government of Japan",
+      "url": "https://qzss.go.jp/en/overview/services/sv02_why.html"
+    },
+    {
+      "title": "Galileo begins serving the globe",
+      "publisher": "European Space Agency",
+      "url": "https://www.esa.int/articles/galileo-begins-serving-the-globe"
+    },
+    {
+      "title": "European Commission Declares Galileo Initial Services Available for Use",
+      "publisher": "Inside GNSS",
+      "url": "https://insidegnss.com/european-commission-declares-galileo-initial-services-available-for-use/"
+    },
+    {
+      "title": "Galileo 10th launch anniversary: The day the European Union broke through the GNSS industry",
+      "publisher": "European Union Agency for the Space Programme (EUSPA)",
+      "url": "https://www.euspa.europa.eu/newsroom-events/news-archive/galileo-10th-launch-anniversary-day-european-union-broke-through-gnss-industry"
+    },
+    {
+      "title": "What is Galileo",
+      "publisher": "European GNSS Service Centre",
+      "url": "https://www.gsc-europa.eu/galileo/what-is-galileo"
+    },
+    {
+      "title": "Galileo Space Segment",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/Galileo_Space_Segment"
+    },
+    {
+      "title": "New Galileo service set to deliver 20 cm accuracy",
+      "publisher": "European Space Agency",
+      "url": "https://www.esa.int/articles/new-galileo-service-set-to-deliver-20-cm-accuracy"
+    },
+    {
+      "title": "Galileo pathfinder GIOVE-A achieves five years in orbit",
+      "publisher": "European Space Agency",
+      "url": "https://www.esa.int/articles/galileo-pathfinder-giove-a-achieves-five-years-in-orbit"
+    },
+    {
+      "title": "BeiDou navigation system declared complete (Xinhua report)",
+      "publisher": "China Daily",
+      "url": "https://chinadailyhk.com/article/138613"
+    },
+    {
+      "title": "China Satellite Navigation Office Test and Evaluation Research Center, BeiDou-3 news item",
+      "publisher": "China Satellite Navigation Office",
+      "url": "https://www.csno-tarc.cn/en/news/news&id=890"
+    },
+    {
+      "title": "Celebrating a satellite milestone",
+      "publisher": "AOPA (Aircraft Owners and Pilots Association)",
+      "url": "https://www.aopa.org/news-and-media/all-news/2013/june/06/celebrating-a-satellite-milestone"
+    },
+    {
+      "title": "WAAS Performances",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/WAAS_Performances"
+    },
+    {
+      "title": "Wide Area Augmentation System",
+      "publisher": "Wikipedia (CC BY-SA)",
+      "url": "https://en.wikipedia.org/wiki/Wide_Area_Augmentation_System"
+    },
+    {
+      "title": "RTK Fundamentals",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/RTK_Fundamentals"
+    },
+    {
+      "title": "GPS Navigation Message",
+      "publisher": "Navipedia, European Space Agency",
+      "url": "https://gssc.esa.int/navipedia/index.php/GPS_Navigation_Message"
+    },
+    {
+      "title": "Assisted GPS",
+      "publisher": "Wikipedia (CC BY-SA)",
+      "url": "https://en.wikipedia.org/wiki/Assisted_GPS"
+    },
+    {
+      "title": "65 Years Ago: Sputnik Ushers in the Space Age",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/feature/65-years-ago-sputnik-ushers-in-the-space-age"
+    },
+    {
+      "title": "Sputnik 1",
+      "publisher": "Wikipedia (CC BY-SA)",
+      "url": "https://en.wikipedia.org/wiki/Sputnik_1"
+    },
+    {
+      "title": "Friedwardt Winterberg",
+      "publisher": "Wikipedia (CC BY-SA)",
+      "url": "https://en.wikipedia.org/wiki/Friedwardt_Winterberg"
+    },
+    {
+      "title": "Sun Jiadong",
+      "publisher": "Wikipedia (CC BY-SA)",
+      "url": "https://en.wikipedia.org/wiki/Sun_Jiadong"
+    }
+  ]
+}
